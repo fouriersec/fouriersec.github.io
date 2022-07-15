@@ -63,12 +63,12 @@ delete                                   delete <target-id>                     
 This help message can also be viewed by running 'help' in the program.
 
 ### Initialisation
-[![initialisation](/assets/sapphire-project/init.png){:target="\_blank"}](/){:target="\_blank"}
+[![initialisation](/assets/sapphire-project/init.png){:target="\_blank"}](/assets/sapphire-project/init.png){:target="\_blank"}
 
 Initialise or load a workspace with `sapphire <workspace-name>`. You can add a target with the `add-target` command, and list all targets with `info`. A configuration file and dedicated folder for workspace data is created for you, and can be accessed with the `exec` command (see [execution](#shell-execution)). 
 
 ### Note-taking
-[![notes](/assets/sapphire-project/note.png){:target="\_blank"}](/){:target="\_blank"}
+[![notes](/assets/sapphire-project/note.png){:target="\_blank"}](/assets/sapphire-project/note.png){:target="\_blank"}
 
 - Use `make-note` to make a note for the specific target - this can only be done if you have already selected a target
 - Use `notes` to print all your notes
@@ -79,19 +79,19 @@ Initialise or load a workspace with `sapphire <workspace-name>`. You can add a t
 You can set temporary environment variables during your session. They will last as long as `sapphire` is running, and are best used along with the `!exec` command (see below).
 
 ### Shell execution
-[![exec](/assets/sapphire-project/exec.png){:target="\_blank"}](/){:target="\_blank"}
+[![exec](/assets/sapphire-project/exec.png){:target="\_blank"}](/assets/sapphire-project/exec.png){:target="\_blank"}
 
 Execute system commands with `!exec`. To make your workflow easier, you could spawn a shell (e.g. `!exec /bin/bash`), however leaving your workspace directory may lead to unexpected behaviour.  
 
 The directory you are working out of is named after your workspace, and contains the workspace configuration file and all your notes (in a separate notes directory). Here, you can store all data gathered from your session, and re-access it easily whenever you boot up the workspace.
 
 ### Target management
-[[![tmanage](/assets/sapphire-project/delete.png){:target="\_blank"}](/){:target="\_blank"}
+[[![tmanage](/assets/sapphire-project/delete.png){:target="\_blank"}](/assets/sapphire-project/delete.png){:target="\_blank"}
 
 You can add and delete targets as you wish. If you decide to delete a target, you get a confirmation prompt, as this will delete target from the workspace configuration file, as well as all notes associated with it.
 
 ### Re-visiting a workspace
-[![reopen](/assets/sapphire-project/reopen.png){:target="\_blank"}](/){:target="\_blank"}
+[![reopen](/assets/sapphire-project/reopen.png){:target="\_blank"}](/assets/sapphire-project/reopen.png){:target="\_blank"}
 
 You can open a workspace whenever you'd like. This loads up all the necessary data and places you back in the working directory.
 
