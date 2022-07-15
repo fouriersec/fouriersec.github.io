@@ -68,7 +68,7 @@ This help message can also be viewed by running 'help' in the program.
 Initialise or load a workspace with `sapphire <workspace-name>`. You can add a target with the `add-target` command, and list all targets with `info`. A configuration file and dedicated folder for workspace data is created for you, and can be accessed with the `exec` command (see [execution](#shell-execution)). 
 
 #### Note-taking
-![notes](/assets/sapphire-project/notes.png)
+![notes](/assets/sapphire-project/note.png)
 
 - Use `make-note` to make a note for the specific target - this can only be done if you have already selected a target
 - Use `notes` to print all your notes
