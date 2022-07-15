@@ -74,7 +74,7 @@ Initialise or load a workspace with `sapphire <workspace-name>`. You can add a t
 - Use `notes` to print all your notes
 
 ### Environment variable configuration
-[![setenv](/assets/sapphire-project/setenv.png){:target="\_blank"}](/){:target="\_blank"}
+[![setenv](/assets/sapphire-project/setenv.png){:target="\_blank"}](/assets/sapphire-project/setenv.png){:target="\_blank"}
 
 You can set temporary environment variables during your session. They will last as long as `sapphire` is running, and are best used along with the `!exec` command (see below).
 
