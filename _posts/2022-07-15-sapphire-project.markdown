@@ -86,7 +86,7 @@ Execute system commands with `!exec`. To make your workflow easier, you could sp
 The directory you are working out of is named after your workspace, and contains the workspace configuration file and all your notes (in a separate notes directory). Here, you can store all data gathered from your session, and re-access it easily whenever you boot up the workspace.
 
 ### Target management
-[[![tmanage](/assets/sapphire-project/delete.png){:target="\_blank"}](/assets/sapphire-project/delete.png){:target="\_blank"}
+[![tmanage](/assets/sapphire-project/delete.png){:target="\_blank"}](/assets/sapphire-project/delete.png){:target="\_blank"}
 
 You can add and delete targets as you wish. If you decide to delete a target, you get a confirmation prompt, as this will delete target from the workspace configuration file, as well as all notes associated with it.
 
