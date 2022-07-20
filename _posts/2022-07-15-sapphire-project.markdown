@@ -26,10 +26,10 @@ Built and tested on Kali Linux.
 ## Demo
 ### Usage
 ```
-Usage: sapphire <workspace>
+Usage: sapphire <workspace-name>
 
-This will either load a workspace or create a new one..
-Consider adding sapphire/ to the PATH.
+This will either load a workspace or create a new one.
+Consider adding sapphire to the PATH.
 To delete a workspace, simply delete its folder from the data/ directory.
 
 Commands                                 Usage                                    Description                             
@@ -50,6 +50,7 @@ help                                                                            
 
 Dangerous commands - these must be prefixed with a '!' to be run
 
+s                                                                                 spawn a bash shell                      
 cd                                       cd <dir>                                 change current working directory - MAY CAUSE ERRORS, USE CAUTIOUSLY
 exec                                     exec <cmd>                               execute standard shell commands - you may wish to spawn a shell instead
                                                                                   and then 'exit' after use               
